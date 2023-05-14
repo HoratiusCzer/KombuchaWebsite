@@ -340,7 +340,7 @@ body{
    flex-direction: column;
    justify-content: center;
    align-items: flex-start;
-   background-image: url(img/product/p3/8.png);
+   background-image: url(img/product/p3/1.png);
    min-width: 580px;
    height: 50vh;
    background-size: cover;
@@ -349,7 +349,7 @@ body{
 }
  
 #sm-banner .banner-box2{
-  background-image: url(img/product/p3/9.png);
+  background-image: url(img/product/p3/2.png);
    
 }
 
