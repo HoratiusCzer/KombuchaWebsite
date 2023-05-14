@@ -471,4 +471,22 @@ footer a{
    margin-bottom: 10px;
 }
 
+footer .follow{
+   margin-top: 20px;
+}
 
+footer .follow i{
+   color: #000000;
+   padding-right: 4px;
+   cursor: pointer;
+}
+
+footer .follow i:hover,
+footer a:hover{
+   color: #088178;
+}
+
+footer .copyright{
+   width: 100%;
+   text-align: center;
+}
