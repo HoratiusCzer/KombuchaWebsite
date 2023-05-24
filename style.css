@@ -484,6 +484,11 @@ footer .install .row img{
      border: 2px solid #088178;
      border-radius: 6px;
 }
+
+footer .install img{
+   border: 1.50px solid #088178;
+   border-radius: 6px;
+}
 footer .install .img{
     margin: 10px 0 15px 0;
 }
@@ -496,4 +501,10 @@ footer a:hover{
 footer .copyright{
    width: 100%;
    text-align: center;
+}
+
+/* Shop page */
+
+#page-header{
+   background-image: ;
 }
