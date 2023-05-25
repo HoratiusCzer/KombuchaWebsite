@@ -32,17 +32,19 @@
         <section id="prodetails" class="section-p1">
             <div class="single-pro-image">
                 <img src="img/product/p1/3.webp" width="100%" id="MainImg" alt="">
+               
                 <div class="small-img-group">
                     <div class="small-img-col">
-                        <img src="img/product/p1/3.webp" width="100%" id="samll-img" alt="">
+                        <img src="img/product/p1/3.webp" width="100%" class="small-img" alt="">
                     </div>
                    
                     <div class="small-img-col">
-                        <img src="img/sproduct/p1/1.webp" width="100%" id="samll-img" alt="">
+                        <img src="img/sproduct/p1/1.webp" width="100%" class="small-img" alt="">
                     </div>
                     <div class="small-img-col">
-                        <img src="img/sproduct/p1/2.webp" width="100%" id="samll-img" alt="">
+                        <img src="img/sproduct/p1/2.webp" width="100%" class="small-img" alt="">
                     </div>
+                
                 </div>
             </div>
             <div class="single-pro-details">
@@ -217,9 +219,23 @@
                 <p>© 2023, Kombucha Website - HTML CSS Ecommerce Website</p>
             </div>
         </footer>
+       
         <script>
             var MainImg = document.getElementById("MainImg");
-        </script>
+            var smallimg = document.getElementsByClassName("small-img");
+  
+            smallimg[0].onclick = function(){
+              MainImg.src = smallimg[0].src;
+            }
+            smallimg[1].onclick = function(){
+              MainImg.src = smallimg[1].src;
+            }
+            smallimg[2].onclick = function(){
+              MainImg.src = smallimg[2].src;
+            }
+          
+         </script>
+
       <script src="script.js"></script>
 </body>      
 
