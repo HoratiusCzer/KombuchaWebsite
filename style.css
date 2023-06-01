@@ -664,3 +664,8 @@ footer .copyright{
    color: #c9cbce;
    z-index: -9;
 }
+
+/* About page */
+#page-header.about-header{
+   background-image: url(img/about/2.jpg);
+}
