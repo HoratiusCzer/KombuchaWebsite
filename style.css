@@ -608,6 +608,9 @@ footer .copyright{
    text-align: center;
    flex-direction: 14px;
 }
+#page-header.blog-header p{
+    color: #000000;
+}
 #blog{
    padding: 150px 150px 0 150px;
 }
